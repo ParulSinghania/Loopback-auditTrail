@@ -66,4 +66,5 @@ To use with your Models add the mixins attribute to the definition object of you
   },
 	
 *Usage with MongoDB*
+
 In case you use MongoDB with this module, and also use the 'revisions' table option, you need to configure the idType as a 'String'. Otherwise this module will attempt to store the non-numeric id in the row_id property of the revisions model, which is a Number by default.
