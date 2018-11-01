@@ -4,9 +4,12 @@ This module is designed for the Loopback framework. It provides extensive suppor
 
 It consists of a group of functionalities:
 
-Timestamps of updates/creates.
-Registration of the user that created/updated/deleted (thanks to the work of loopback-component-remote-ctx).
-History logging in a separate table.
+>Timestamps of updates/creates.
+
+>Registration of the user that created/updated/deleted (thanks to the work of loopback-component-remote-ctx).
+
+>History logging in a separate table.
+
 Each of these main functionalities can be turned off individually.
 
 *Install*
