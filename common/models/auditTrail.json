@@ -1,0 +1,54 @@
+{
+  "name": "AuditTrail",
+  "idInjection": true,
+  "forceId": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "required": true
+    },
+    "old":{
+      "type" : "string",
+      "required" : false
+    },
+    "new":{
+      "type" : "string",
+      "required" : true
+    },
+    "action":{
+      "type" : "string",
+      "required" : true
+    },
+    "table_name":{
+      "type" : "string",
+      "required" : true
+    },
+    "user":{
+      "type" : "string",
+      "required" : false
+    },
+    "created_at":{
+        "type": "date",
+        "required": false
+    },
+    "updated_at":{
+      "type": "date",
+      "required": false
+    },
+    "createdBy":{
+      "type": "string",
+      "required": false
+    },
+    "updatedBy":{
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
